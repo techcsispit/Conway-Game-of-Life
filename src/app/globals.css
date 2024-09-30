@@ -1,0 +1,36 @@
+:root {
+  --cell-size: max(15px, 2.5vw);
+  --bg-color: #292929;
+  --cell-bg-color: #292929;
+  --btn-bg-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cyan-theme {
+  --cell-color: #66FCF1;
+  --btn-text-color: #66FCF1;
+  --btn-border-color: #66FCF1;
+  --btn-hover-color: #45A29F;
+}
+
+.green-theme {
+  --cell-color: #38D352;
+  --btn-text-color: #38D352;
+  --btn-border-color: #38D352;
+  --btn-hover-color: #4CAF50;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #292929;
+  color: white;
+}
